@@ -2596,7 +2596,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .comfort-section-intro-text {
-    width: 35%;
+    width: 40%;
     opacity: 1;
     color: #fff;
     font-size: 26px;
@@ -2650,7 +2650,7 @@ textarea.w-input, textarea.w-select {
 
 .paragraph {
     max-width: 33.3333%;
-    margin-left: 91px;
+    margin-left: 280px;
     color: #fff;
     font-size: 22px;
     line-height: 1.18;
