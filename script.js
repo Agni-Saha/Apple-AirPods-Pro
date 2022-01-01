@@ -16,14 +16,14 @@
 /******/ 		if (installedModules[moduleId]) {
 /******/ 			return installedModules[moduleId].exports;
             /******/
-}
+        }
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = installedModules[moduleId] = {
 /******/ 			i: moduleId,
 /******/ 			l: false,
 /******/ 			exports: {}
             /******/
-};
+        };
 /******/
 /******/ 		// Execute the module function
 /******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
@@ -34,7 +34,7 @@
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
         /******/
-}
+    }
 /******/
 /******/
 /******/ 	// expose the modules object (__webpack_modules__)
@@ -48,19 +48,19 @@
 /******/ 		if (!__webpack_require__.o(exports, name)) {
 /******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
             /******/
-}
+        }
         /******/
-};
+    };
 /******/
 /******/ 	// define __esModule on exports
 /******/ 	__webpack_require__.r = function (exports) {
 /******/ 		if (typeof Symbol !== 'undefined' && Symbol.toStringTag) {
 /******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
             /******/
-}
+        }
 /******/ 		Object.defineProperty(exports, '__esModule', { value: true });
         /******/
-};
+    };
 /******/
 /******/ 	// create a fake namespace object
 /******/ 	// mode & 1: value is a module id, require it
@@ -77,7 +77,7 @@
 /******/ 		if (mode & 2 && typeof value != 'string') for (var key in value) __webpack_require__.d(ns, key, function (key) { return value[key]; }.bind(null, key));
 /******/ 		return ns;
         /******/
-};
+    };
 /******/
 /******/ 	// getDefaultExport function for compatibility with non-harmony modules
 /******/ 	__webpack_require__.n = function (module) {
@@ -87,7 +87,7 @@
 /******/ 		__webpack_require__.d(getter, 'a', getter);
 /******/ 		return getter;
         /******/
-};
+    };
 /******/
 /******/ 	// Object.prototype.hasOwnProperty.call
 /******/ 	__webpack_require__.o = function (object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
@@ -122,10 +122,10 @@
                 (function () { return this; })() || Function('return this')();
 
             /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(60)))
+        }.call(this, __webpack_require__(60)))
 
         /***/
-}),
+    }),
 /* 1 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -187,7 +187,7 @@
 
 
         /***/
-}),
+    }),
 /* 2 */
 /***/ (function (module, exports) {
 
@@ -206,7 +206,7 @@
 
 
         /***/
-}),
+    }),
 /* 3 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -220,7 +220,7 @@
 
 
         /***/
-}),
+    }),
 /* 4 */
 /***/ (function (module, exports) {
 
@@ -233,7 +233,7 @@
         module.exports = _interopRequireDefault;
 
         /***/
-}),
+    }),
 /* 5 */
 /***/ (function (module, exports) {
 
@@ -245,7 +245,7 @@
 
 
         /***/
-}),
+    }),
 /* 6 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -276,7 +276,7 @@
 
 
         /***/
-}),
+    }),
 /* 7 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -293,7 +293,7 @@
 
 
         /***/
-}),
+    }),
 /* 8 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -320,7 +320,7 @@
 
 
         /***/
-}),
+    }),
 /* 9 */
 /***/ (function (module, exports) {
 
@@ -334,7 +334,7 @@
 
 
         /***/
-}),
+    }),
 /* 10 */
 /***/ (function (module, exports) {
 
@@ -367,7 +367,7 @@
 
 
         /***/
-}),
+    }),
 /* 11 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -385,7 +385,7 @@
 
 
         /***/
-}),
+    }),
 /* 12 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -397,7 +397,7 @@
 
 
         /***/
-}),
+    }),
 /* 13 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -476,7 +476,7 @@
         exports.IX2EngineConstants = IX2EngineConstants;
 
         /***/
-}),
+    }),
 /* 14 */
 /***/ (function (module, exports) {
 
@@ -488,7 +488,7 @@
 
 
         /***/
-}),
+    }),
 /* 15 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -505,7 +505,7 @@
 
 
         /***/
-}),
+    }),
 /* 16 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -522,7 +522,7 @@
 
 
         /***/
-}),
+    }),
 /* 17 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -552,7 +552,7 @@
 
 
         /***/
-}),
+    }),
 /* 18 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -568,7 +568,7 @@
 
 
         /***/
-}),
+    }),
 /* 19 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -582,7 +582,7 @@
 
 
         /***/
-}),
+    }),
 /* 20 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -600,7 +600,7 @@
 
 
         /***/
-}),
+    }),
 /* 21 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -619,7 +619,7 @@
 
 
         /***/
-}),
+    }),
 /* 22 */
 /***/ (function (module, exports) {
 
@@ -657,7 +657,7 @@
 
 
         /***/
-}),
+    }),
 /* 23 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -671,7 +671,7 @@
 
 
         /***/
-}),
+    }),
 /* 24 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -751,7 +751,7 @@
 
 
         /***/
-}),
+    }),
 /* 25 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -769,7 +769,7 @@
 
 
         /***/
-}),
+    }),
 /* 26 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1109,7 +1109,7 @@
         module.exports = window.Webflow = Webflow;
 
         /***/
-}),
+    }),
 /* 27 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1162,7 +1162,7 @@
 
 
         /***/
-}),
+    }),
 /* 28 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1200,7 +1200,7 @@
 
 
         /***/
-}),
+    }),
 /* 29 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1224,7 +1224,7 @@
 
 
         /***/
-}),
+    }),
 /* 30 */
 /***/ (function (module, exports) {
 
@@ -1260,7 +1260,7 @@
 
 
         /***/
-}),
+    }),
 /* 31 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1294,7 +1294,7 @@
 
 
         /***/
-}),
+    }),
 /* 32 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1304,7 +1304,7 @@
 
 
         /***/
-}),
+    }),
 /* 33 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1319,7 +1319,7 @@
 
 
         /***/
-}),
+    }),
 /* 34 */
 /***/ (function (module, exports) {
 
@@ -1336,7 +1336,7 @@
 
 
         /***/
-}),
+    }),
 /* 35 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1351,7 +1351,7 @@
 
 
         /***/
-}),
+    }),
 /* 36 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1440,7 +1440,7 @@
 
 
         /***/
-}),
+    }),
 /* 37 */
 /***/ (function (module, exports) {
 
@@ -1462,7 +1462,7 @@
         module.exports = _defineProperty;
 
         /***/
-}),
+    }),
 /* 38 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1497,7 +1497,7 @@
 
 
         /***/
-}),
+    }),
 /* 39 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1537,7 +1537,7 @@
 
 
         /***/
-}),
+    }),
 /* 40 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1560,7 +1560,7 @@
 
 
         /***/
-}),
+    }),
 /* 41 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1636,7 +1636,7 @@
 
 
         /***/
-}),
+    }),
 /* 42 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1686,7 +1686,7 @@
 
 
         /***/
-}),
+    }),
 /* 43 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1700,7 +1700,7 @@
 
 
         /***/
-}),
+    }),
 /* 44 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1739,7 +1739,7 @@
         exports.IX2VanillaUtils = IX2VanillaUtils;
 
         /***/
-}),
+    }),
 /* 45 */
 /***/ (function (module, exports) {
 
@@ -1764,7 +1764,7 @@
         module.exports = _extends;
 
         /***/
-}),
+    }),
 /* 46 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1777,7 +1777,7 @@
 
 
         /***/
-}),
+    }),
 /* 47 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1805,7 +1805,7 @@
 
 
         /***/
-}),
+    }),
 /* 48 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1820,7 +1820,7 @@
 
 
         /***/
-}),
+    }),
 /* 49 */
 /***/ (function (module, exports) {
 
@@ -1828,7 +1828,7 @@
 
 
         /***/
-}),
+    }),
 /* 50 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1847,7 +1847,7 @@
 
 
         /***/
-}),
+    }),
 /* 51 */
 /***/ (function (module, exports) {
 
@@ -1855,7 +1855,7 @@
 
 
         /***/
-}),
+    }),
 /* 52 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1873,7 +1873,7 @@
 
 
         /***/
-}),
+    }),
 /* 53 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1899,7 +1899,7 @@
 
 
         /***/
-}),
+    }),
 /* 54 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1910,7 +1910,7 @@
 
 
         /***/
-}),
+    }),
 /* 55 */
 /***/ (function (module, exports) {
 
@@ -1942,7 +1942,7 @@
         module.exports = _interopRequireWildcard;
 
         /***/
-}),
+    }),
 /* 56 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2612,7 +2612,7 @@
 
 
         /***/
-}),
+    }),
 /* 57 */
 /***/ (function (module, exports) {
 
@@ -2635,7 +2635,7 @@
         module.exports = _typeof;
 
         /***/
-}),
+    }),
 /* 58 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2674,7 +2674,7 @@
 
 
         /***/
-}),
+    }),
 /* 59 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2702,7 +2702,7 @@
 
 
         /***/
-}),
+    }),
 /* 60 */
 /***/ (function (module, exports) {
 
@@ -2729,7 +2729,7 @@
 
 
         /***/
-}),
+    }),
 /* 61 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2742,7 +2742,7 @@
 
 
         /***/
-}),
+    }),
 /* 62 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2767,7 +2767,7 @@
 
 
         /***/
-}),
+    }),
 /* 63 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2811,7 +2811,7 @@
 
 
         /***/
-}),
+    }),
 /* 64 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2854,7 +2854,7 @@
 
 
         /***/
-}),
+    }),
 /* 65 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2882,7 +2882,7 @@
 
 
         /***/
-}),
+    }),
 /* 66 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2918,7 +2918,7 @@
 
 
         /***/
-}),
+    }),
 /* 67 */
 /***/ (function (module, exports) {
 
@@ -2933,7 +2933,7 @@
 
 
         /***/
-}),
+    }),
 /* 68 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2949,7 +2949,7 @@
 
 
         /***/
-}),
+    }),
 /* 69 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2967,7 +2967,7 @@
 
 
         /***/
-}),
+    }),
 /* 70 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2981,7 +2981,7 @@
 
 
         /***/
-}),
+    }),
 /* 71 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2998,7 +2998,7 @@
 
 
         /***/
-}),
+    }),
 /* 72 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3019,7 +3019,7 @@
 
 
         /***/
-}),
+    }),
 /* 73 */
 /***/ (function (module, exports) {
 
@@ -3027,7 +3027,7 @@
 
 
         /***/
-}),
+    }),
 /* 74 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3064,7 +3064,7 @@
 
 
         /***/
-}),
+    }),
 /* 75 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3085,7 +3085,7 @@
 
 
         /***/
-}),
+    }),
 /* 76 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3104,7 +3104,7 @@
 
 
         /***/
-}),
+    }),
 /* 77 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3122,7 +3122,7 @@
 
 
         /***/
-}),
+    }),
 /* 78 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3132,7 +3132,7 @@
 
 
         /***/
-}),
+    }),
 /* 79 */
 /***/ (function (module, exports) {
 
@@ -3176,7 +3176,7 @@
 
 
         /***/
-}),
+    }),
 /* 80 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3190,7 +3190,7 @@
 
 
         /***/
-}),
+    }),
 /* 81 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3229,7 +3229,7 @@
 
 
         /***/
-}),
+    }),
 /* 82 */
 /***/ (function (module, exports) {
 
@@ -3256,13 +3256,13 @@
 
 
         /***/
-}),
+    }),
 /* 83 */
 /***/ (function (module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function (module) {
             var root = __webpack_require__(18),
-            stubFalse = __webpack_require__(242);
+                stubFalse = __webpack_require__(242);
 
             /** Detect free variable `exports`. */
             var freeExports = true && exports && !exports.nodeType && exports;
@@ -3301,10 +3301,10 @@
             module.exports = isBuffer;
 
             /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(137)(module)))
+        }.call(this, __webpack_require__(137)(module)))
 
         /***/
-}),
+    }),
 /* 84 */
 /***/ (function (module, exports) {
 
@@ -3336,7 +3336,7 @@
 
 
         /***/
-}),
+    }),
 /* 85 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3370,7 +3370,7 @@
 
 
         /***/
-}),
+    }),
 /* 86 */
 /***/ (function (module, exports) {
 
@@ -3412,7 +3412,7 @@
 
 
         /***/
-}),
+    }),
 /* 87 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3449,7 +3449,7 @@
 
 
         /***/
-}),
+    }),
 /* 88 */
 /***/ (function (module, exports) {
 
@@ -3474,7 +3474,7 @@
 
 
         /***/
-}),
+    }),
 /* 89 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3539,7 +3539,7 @@
 
 
         /***/
-}),
+    }),
 /* 90 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3579,7 +3579,7 @@
 
 
         /***/
-}),
+    }),
 /* 91 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3610,7 +3610,7 @@
 
 
         /***/
-}),
+    }),
 /* 92 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3646,7 +3646,7 @@
 
 
         /***/
-}),
+    }),
 /* 93 */
 /***/ (function (module, exports) {
 
@@ -3674,7 +3674,7 @@
 
 
         /***/
-}),
+    }),
 /* 94 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3745,7 +3745,7 @@
 
 
         /***/
-}),
+    }),
 /* 95 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3774,7 +3774,7 @@
 
 
         /***/
-}),
+    }),
 /* 96 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3791,7 +3791,7 @@
 
 
         /***/
-}),
+    }),
 /* 97 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3801,7 +3801,7 @@
 
 
         /***/
-}),
+    }),
 /* 98 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3820,7 +3820,7 @@
 
 
         /***/
-}),
+    }),
 /* 99 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3836,7 +3836,7 @@
 
 
         /***/
-}),
+    }),
 /* 100 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3853,7 +3853,7 @@
 
 
         /***/
-}),
+    }),
 /* 101 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3868,7 +3868,7 @@
 
 
         /***/
-}),
+    }),
 /* 102 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3886,7 +3886,7 @@
 
 
         /***/
-}),
+    }),
 /* 103 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3925,7 +3925,7 @@
 
 
         /***/
-}),
+    }),
 /* 104 */
 /***/ (function (module, exports) {
 
@@ -3942,7 +3942,7 @@
 
 
         /***/
-}),
+    }),
 /* 105 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3971,7 +3971,7 @@
 
 
         /***/
-}),
+    }),
 /* 106 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3986,7 +3986,7 @@
 
 
         /***/
-}),
+    }),
 /* 107 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4031,7 +4031,7 @@
 
 
         /***/
-}),
+    }),
 /* 108 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4138,7 +4138,7 @@
 
 
         /***/
-}),
+    }),
 /* 109 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4166,7 +4166,7 @@
 
 
         /***/
-}),
+    }),
 /* 110 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4200,7 +4200,7 @@
 
 
         /***/
-}),
+    }),
 /* 111 */
 /***/ (function (module, exports) {
 
@@ -4216,7 +4216,7 @@
 
 
         /***/
-}),
+    }),
 /* 112 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4232,7 +4232,7 @@
 
 
         /***/
-}),
+    }),
 /* 113 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4259,7 +4259,7 @@
 
 
         /***/
-}),
+    }),
 /* 114 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4332,7 +4332,7 @@
 
 
         /***/
-}),
+    }),
 /* 115 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4348,7 +4348,7 @@
 
 
         /***/
-}),
+    }),
 /* 116 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4361,7 +4361,7 @@
 
 
         /***/
-}),
+    }),
 /* 117 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -4621,7 +4621,7 @@
         }
 
         /***/
-}),
+    }),
 /* 118 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -4664,7 +4664,7 @@
         }
 
         /***/
-}),
+    }),
 /* 119 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4750,7 +4750,7 @@
         exports.TRANSFORM_STYLE_PREFIXED = TRANSFORM_STYLE_PREFIXED;
 
         /***/
-}),
+    }),
 /* 120 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -5037,7 +5037,7 @@
         exports.mediaQueriesDefined = mediaQueriesDefined;
 
         /***/
-}),
+    }),
 /* 121 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -5066,7 +5066,7 @@
 
 
         /***/
-}),
+    }),
 /* 122 */
 /***/ (function (module, exports) {
 
@@ -5083,7 +5083,7 @@
 
 
         /***/
-}),
+    }),
 /* 123 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -5118,7 +5118,7 @@
 
 
         /***/
-}),
+    }),
 /* 124 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6007,7 +6007,7 @@
         }(window.jQuery);
 
         /***/
-}),
+    }),
 /* 125 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6069,7 +6069,7 @@
 
 
         /***/
-}),
+    }),
 /* 126 */
 /***/ (function (module, exports) {
 
@@ -6100,7 +6100,7 @@
 
 
         /***/
-}),
+    }),
 /* 127 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6134,7 +6134,7 @@
 
 
         /***/
-}),
+    }),
 /* 128 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6178,7 +6178,7 @@
 
 
         /***/
-}),
+    }),
 /* 129 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6188,10 +6188,10 @@
             module.exports = freeGlobal;
 
             /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(60)))
+        }.call(this, __webpack_require__(60)))
 
         /***/
-}),
+    }),
 /* 130 */
 /***/ (function (module, exports) {
 
@@ -6224,7 +6224,7 @@
 
 
         /***/
-}),
+    }),
 /* 131 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6259,7 +6259,7 @@
 
 
         /***/
-}),
+    }),
 /* 132 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6350,7 +6350,7 @@
 
 
         /***/
-}),
+    }),
 /* 133 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6377,7 +6377,7 @@
 
 
         /***/
-}),
+    }),
 /* 134 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6414,7 +6414,7 @@
 
 
         /***/
-}),
+    }),
 /* 135 */
 /***/ (function (module, exports) {
 
@@ -6444,7 +6444,7 @@
 
 
         /***/
-}),
+    }),
 /* 136 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6500,7 +6500,7 @@
 
 
         /***/
-}),
+    }),
 /* 137 */
 /***/ (function (module, exports) {
 
@@ -6529,7 +6529,7 @@
 
 
         /***/
-}),
+    }),
 /* 138 */
 /***/ (function (module, exports) {
 
@@ -6551,7 +6551,7 @@
 
 
         /***/
-}),
+    }),
 /* 139 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6565,7 +6565,7 @@
 
 
         /***/
-}),
+    }),
 /* 140 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6587,7 +6587,7 @@
 
 
         /***/
-}),
+    }),
 /* 141 */
 /***/ (function (module, exports) {
 
@@ -6614,7 +6614,7 @@
 
 
         /***/
-}),
+    }),
 /* 142 */
 /***/ (function (module, exports) {
 
@@ -6642,7 +6642,7 @@
 
 
         /***/
-}),
+    }),
 /* 143 */
 /***/ (function (module, exports) {
 
@@ -6663,7 +6663,7 @@
 
 
         /***/
-}),
+    }),
 /* 144 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6706,7 +6706,7 @@
 
 
         /***/
-}),
+    }),
 /* 145 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6727,7 +6727,7 @@
 
 
         /***/
-}),
+    }),
 /* 146 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6740,7 +6740,7 @@
 
 
         /***/
-}),
+    }),
 /* 147 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6760,7 +6760,7 @@
 
 
         /***/
-}),
+    }),
 /* 148 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6777,7 +6777,7 @@
 
 
         /***/
-}),
+    }),
 /* 149 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6795,7 +6795,7 @@
 
 
         /***/
-}),
+    }),
 /* 150 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6819,7 +6819,7 @@
 
 
         /***/
-}),
+    }),
 /* 151 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6846,7 +6846,7 @@
 
 
         /***/
-}),
+    }),
 /* 152 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6876,7 +6876,7 @@
 
 
         /***/
-}),
+    }),
 /* 153 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6893,7 +6893,7 @@
 
 
         /***/
-}),
+    }),
 /* 154 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6921,7 +6921,7 @@
 
 
         /***/
-}),
+    }),
 /* 155 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6931,7 +6931,7 @@
 
 
         /***/
-}),
+    }),
 /* 156 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -6961,7 +6961,7 @@
 
 
         /***/
-}),
+    }),
 /* 157 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7005,7 +7005,7 @@
 
 
         /***/
-}),
+    }),
 /* 158 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7028,7 +7028,7 @@
 
 
         /***/
-}),
+    }),
 /* 159 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7084,7 +7084,7 @@
 
 
         /***/
-}),
+    }),
 /* 160 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7134,7 +7134,7 @@
 
 
         /***/
-}),
+    }),
 /* 161 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7236,7 +7236,7 @@
 
 
         /***/
-}),
+    }),
 /* 162 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7356,7 +7356,7 @@
 
 
         /***/
-}),
+    }),
 /* 163 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7366,7 +7366,7 @@
 
 
         /***/
-}),
+    }),
 /* 164 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7393,7 +7393,7 @@
 
 
         /***/
-}),
+    }),
 /* 165 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7462,7 +7462,7 @@
 
 
         /***/
-}),
+    }),
 /* 166 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7503,7 +7503,7 @@
 
 
         /***/
-}),
+    }),
 /* 167 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -7543,7 +7543,7 @@
 
 
         /***/
-}),
+    }),
 /* 168 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -7617,7 +7617,7 @@
 
 
         /***/
-}),
+    }),
 /* 169 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -7633,7 +7633,7 @@
 
 
         /***/
-}),
+    }),
 /* 170 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -7763,7 +7763,7 @@
         }
 
         /***/
-}),
+    }),
 /* 171 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -7793,7 +7793,7 @@
         }
 
         /***/
-}),
+    }),
 /* 172 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -7849,7 +7849,7 @@
         }
 
         /***/
-}),
+    }),
 /* 173 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -7907,7 +7907,7 @@
         }
 
         /***/
-}),
+    }),
 /* 174 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7948,7 +7948,7 @@
         exports.ActionAppliesTo = ActionAppliesTo;
 
         /***/
-}),
+    }),
 /* 175 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -7997,7 +7997,7 @@
 
 
         /***/
-}),
+    }),
 /* 176 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -8029,7 +8029,7 @@
 
 
         /***/
-}),
+    }),
 /* 177 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -8364,7 +8364,7 @@
         }
 
         /***/
-}),
+    }),
 /* 178 */
 /***/ (function (module, exports) {
 
@@ -8475,7 +8475,7 @@
 
 
         /***/
-}),
+    }),
 /* 179 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -8532,7 +8532,7 @@
         }
 
         /***/
-}),
+    }),
 /* 180 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -8549,7 +8549,7 @@
         module.exports = _toConsumableArray;
 
         /***/
-}),
+    }),
 /* 181 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -8628,7 +8628,7 @@
         exports.clearPlugin = clearPlugin;
 
         /***/
-}),
+    }),
 /* 182 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -8649,7 +8649,7 @@
 
 
         /***/
-}),
+    }),
 /* 183 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -8672,7 +8672,7 @@
 
 
         /***/
-}),
+    }),
 /* 184 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -8690,7 +8690,7 @@
         exports.default = _default;
 
         /***/
-}),
+    }),
 /* 185 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -9861,7 +9861,7 @@
         }
 
         /***/
-}),
+    }),
 /* 186 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -9893,7 +9893,7 @@
 
 
         /***/
-}),
+    }),
 /* 187 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -9911,7 +9911,7 @@
 
 
         /***/
-}),
+    }),
 /* 188 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -9948,7 +9948,7 @@
 
 
         /***/
-}),
+    }),
 /* 189 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -9970,7 +9970,7 @@
 
 
         /***/
-}),
+    }),
 /* 190 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -10008,7 +10008,7 @@
 
 
         /***/
-}),
+    }),
 /* 191 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -10024,7 +10024,7 @@
 
 
         /***/
-}),
+    }),
 /* 192 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -10051,7 +10051,7 @@
         });
 
         /***/
-}),
+    }),
 /* 193 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -10427,7 +10427,7 @@
         /* eslint-enable */
 
         /***/
-}),
+    }),
 /* 194 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -10942,7 +10942,7 @@
         exports.ready = ready;
 
         /***/
-}),
+    }),
 /* 195 */
 /***/ (function (module, exports) {
 
@@ -10955,7 +10955,7 @@
         module.exports = _classCallCheck;
 
         /***/
-}),
+    }),
 /* 196 */
 /***/ (function (module, exports) {
 
@@ -10978,7 +10978,7 @@
         module.exports = _createClass;
 
         /***/
-}),
+    }),
 /* 197 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11007,7 +11007,7 @@
 
 
         /***/
-}),
+    }),
 /* 198 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11076,7 +11076,7 @@
 
 
         /***/
-}),
+    }),
 /* 199 */
 /***/ (function (module, exports) {
 
@@ -11096,7 +11096,7 @@
 
 
         /***/
-}),
+    }),
 /* 200 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11138,7 +11138,7 @@
 
 
         /***/
-}),
+    }),
 /* 201 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11164,7 +11164,7 @@
 
 
         /***/
-}),
+    }),
 /* 202 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11187,7 +11187,7 @@
 
 
         /***/
-}),
+    }),
 /* 203 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11220,7 +11220,7 @@
 
 
         /***/
-}),
+    }),
 /* 204 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11242,7 +11242,7 @@
 
 
         /***/
-}),
+    }),
 /* 205 */
 /***/ (function (module, exports) {
 
@@ -11267,7 +11267,7 @@
 
 
         /***/
-}),
+    }),
 /* 206 */
 /***/ (function (module, exports) {
 
@@ -11288,7 +11288,7 @@
 
 
         /***/
-}),
+    }),
 /* 207 */
 /***/ (function (module, exports) {
 
@@ -11309,7 +11309,7 @@
 
 
         /***/
-}),
+    }),
 /* 208 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11350,7 +11350,7 @@
 
 
         /***/
-}),
+    }),
 /* 209 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11404,7 +11404,7 @@
 
 
         /***/
-}),
+    }),
 /* 210 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11457,7 +11457,7 @@
 
 
         /***/
-}),
+    }),
 /* 211 */
 /***/ (function (module, exports) {
 
@@ -11486,7 +11486,7 @@
 
 
         /***/
-}),
+    }),
 /* 212 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11513,7 +11513,7 @@
 
 
         /***/
-}),
+    }),
 /* 213 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11526,7 +11526,7 @@
 
 
         /***/
-}),
+    }),
 /* 214 */
 /***/ (function (module, exports) {
 
@@ -11546,7 +11546,7 @@
 
 
         /***/
-}),
+    }),
 /* 215 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11574,7 +11574,7 @@
 
 
         /***/
-}),
+    }),
 /* 216 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11613,7 +11613,7 @@
 
 
         /***/
-}),
+    }),
 /* 217 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11635,7 +11635,7 @@
 
 
         /***/
-}),
+    }),
 /* 218 */
 /***/ (function (module, exports) {
 
@@ -11659,7 +11659,7 @@
 
 
         /***/
-}),
+    }),
 /* 219 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11696,7 +11696,7 @@
 
 
         /***/
-}),
+    }),
 /* 220 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11726,7 +11726,7 @@
 
 
         /***/
-}),
+    }),
 /* 221 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11756,7 +11756,7 @@
 
 
         /***/
-}),
+    }),
 /* 222 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11781,7 +11781,7 @@
 
 
         /***/
-}),
+    }),
 /* 223 */
 /***/ (function (module, exports) {
 
@@ -11803,7 +11803,7 @@
 
 
         /***/
-}),
+    }),
 /* 224 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11826,7 +11826,7 @@
 
 
         /***/
-}),
+    }),
 /* 225 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11849,7 +11849,7 @@
 
 
         /***/
-}),
+    }),
 /* 226 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11878,7 +11878,7 @@
 
 
         /***/
-}),
+    }),
 /* 227 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -11968,7 +11968,7 @@
 
 
         /***/
-}),
+    }),
 /* 228 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12002,7 +12002,7 @@
 
 
         /***/
-}),
+    }),
 /* 229 */
 /***/ (function (module, exports) {
 
@@ -12028,7 +12028,7 @@
 
 
         /***/
-}),
+    }),
 /* 230 */
 /***/ (function (module, exports) {
 
@@ -12049,7 +12049,7 @@
 
 
         /***/
-}),
+    }),
 /* 231 */
 /***/ (function (module, exports) {
 
@@ -12079,7 +12079,7 @@
 
 
         /***/
-}),
+    }),
 /* 232 */
 /***/ (function (module, exports) {
 
@@ -12099,7 +12099,7 @@
 
 
         /***/
-}),
+    }),
 /* 233 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12218,7 +12218,7 @@
 
 
         /***/
-}),
+    }),
 /* 234 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12231,7 +12231,7 @@
 
 
         /***/
-}),
+    }),
 /* 235 */
 /***/ (function (module, exports) {
 
@@ -12256,7 +12256,7 @@
 
 
         /***/
-}),
+    }),
 /* 236 */
 /***/ (function (module, exports) {
 
@@ -12281,7 +12281,7 @@
 
 
         /***/
-}),
+    }),
 /* 237 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12378,7 +12378,7 @@
 
 
         /***/
-}),
+    }),
 /* 238 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12401,7 +12401,7 @@
 
 
         /***/
-}),
+    }),
 /* 239 */
 /***/ (function (module, exports) {
 
@@ -12433,7 +12433,7 @@
 
 
         /***/
-}),
+    }),
 /* 240 */
 /***/ (function (module, exports) {
 
@@ -12460,7 +12460,7 @@
 
 
         /***/
-}),
+    }),
 /* 241 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12485,7 +12485,7 @@
 
 
         /***/
-}),
+    }),
 /* 242 */
 /***/ (function (module, exports) {
 
@@ -12510,7 +12510,7 @@
 
 
         /***/
-}),
+    }),
 /* 243 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12577,7 +12577,7 @@
 
 
         /***/
-}),
+    }),
 /* 244 */
 /***/ (function (module, exports) {
 
@@ -12598,7 +12598,7 @@
 
 
         /***/
-}),
+    }),
 /* 245 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12635,10 +12635,10 @@
             module.exports = nodeUtil;
 
             /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(137)(module)))
+        }.call(this, __webpack_require__(137)(module)))
 
         /***/
-}),
+    }),
 /* 246 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12651,7 +12651,7 @@
 
 
         /***/
-}),
+    }),
 /* 247 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12665,7 +12665,7 @@
 
 
         /***/
-}),
+    }),
 /* 248 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12679,7 +12679,7 @@
 
 
         /***/
-}),
+    }),
 /* 249 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12693,7 +12693,7 @@
 
 
         /***/
-}),
+    }),
 /* 250 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12724,7 +12724,7 @@
 
 
         /***/
-}),
+    }),
 /* 251 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12764,7 +12764,7 @@
 
 
         /***/
-}),
+    }),
 /* 252 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12798,7 +12798,7 @@
 
 
         /***/
-}),
+    }),
 /* 253 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12831,7 +12831,7 @@
 
 
         /***/
-}),
+    }),
 /* 254 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12911,7 +12911,7 @@
 
 
         /***/
-}),
+    }),
 /* 255 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12946,7 +12946,7 @@
 
 
         /***/
-}),
+    }),
 /* 256 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -12990,7 +12990,7 @@
 
 
         /***/
-}),
+    }),
 /* 257 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13031,7 +13031,7 @@
 
 
         /***/
-}),
+    }),
 /* 258 */
 /***/ (function (module, exports) {
 
@@ -13051,7 +13051,7 @@
 
 
         /***/
-}),
+    }),
 /* 259 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13097,7 +13097,7 @@
 
 
         /***/
-}),
+    }),
 /* 260 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13136,7 +13136,7 @@
 
 
         /***/
-}),
+    }),
 /* 261 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13159,7 +13159,7 @@
 
 
         /***/
-}),
+    }),
 /* 262 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13208,7 +13208,7 @@
 
 
         /***/
-}),
+    }),
 /* 263 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13234,7 +13234,7 @@
 
 
         /***/
-}),
+    }),
 /* 264 */
 /***/ (function (module, exports) {
 
@@ -13260,7 +13260,7 @@
 
 
         /***/
-}),
+    }),
 /* 265 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13285,7 +13285,7 @@
 
 
         /***/
-}),
+    }),
 /* 266 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13295,7 +13295,7 @@
 
 
         /***/
-}),
+    }),
 /* 267 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13337,7 +13337,7 @@
 
 
         /***/
-}),
+    }),
 /* 268 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13358,7 +13358,7 @@
 
 
         /***/
-}),
+    }),
 /* 269 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13380,7 +13380,7 @@
 
 
         /***/
-}),
+    }),
 /* 270 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13413,7 +13413,7 @@
 
 
         /***/
-}),
+    }),
 /* 271 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13436,7 +13436,7 @@
 
 
         /***/
-}),
+    }),
 /* 272 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13450,7 +13450,7 @@
 
 
         /***/
-}),
+    }),
 /* 273 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13471,7 +13471,7 @@
 
 
         /***/
-}),
+    }),
 /* 274 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13492,7 +13492,7 @@
 
 
         /***/
-}),
+    }),
 /* 275 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13508,7 +13508,7 @@
 
 
         /***/
-}),
+    }),
 /* 276 */
 /***/ (function (module, exports) {
 
@@ -13517,7 +13517,7 @@
 
 
         /***/
-}),
+    }),
 /* 277 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13572,7 +13572,7 @@
 
 
         /***/
-}),
+    }),
 /* 278 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13590,7 +13590,7 @@
 
 
         /***/
-}),
+    }),
 /* 279 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13605,7 +13605,7 @@
 
 
         /***/
-}),
+    }),
 /* 280 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13640,7 +13640,7 @@
 
 
         /***/
-}),
+    }),
 /* 281 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13666,7 +13666,7 @@
 
 
         /***/
-}),
+    }),
 /* 282 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13682,7 +13682,7 @@
 
 
         /***/
-}),
+    }),
 /* 283 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13753,7 +13753,7 @@
 
 
         /***/
-}),
+    }),
 /* 284 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13772,7 +13772,7 @@
 
 
         /***/
-}),
+    }),
 /* 285 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13810,7 +13810,7 @@
 
 
         /***/
-}),
+    }),
 /* 286 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13832,7 +13832,7 @@
 
 
         /***/
-}),
+    }),
 /* 287 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13851,7 +13851,7 @@
 
 
         /***/
-}),
+    }),
 /* 288 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13876,7 +13876,7 @@
 
 
         /***/
-}),
+    }),
 /* 289 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13899,7 +13899,7 @@
 
 
         /***/
-}),
+    }),
 /* 290 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13928,7 +13928,7 @@
 
 
         /***/
-}),
+    }),
 /* 291 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13957,7 +13957,7 @@
 
 
         /***/
-}),
+    }),
 /* 292 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -13985,7 +13985,7 @@
 
 
         /***/
-}),
+    }),
 /* 293 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14014,7 +14014,7 @@
 
 
         /***/
-}),
+    }),
 /* 294 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14032,7 +14032,7 @@
 
 
         /***/
-}),
+    }),
 /* 295 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14052,7 +14052,7 @@
 
 
         /***/
-}),
+    }),
 /* 296 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14083,7 +14083,7 @@
 
 
         /***/
-}),
+    }),
 /* 297 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14144,7 +14144,7 @@
 
 
         /***/
-}),
+    }),
 /* 298 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14168,7 +14168,7 @@
 
 
         /***/
-}),
+    }),
 /* 299 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14183,7 +14183,7 @@
 
 
         /***/
-}),
+    }),
 /* 300 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14200,7 +14200,7 @@
 
 
         /***/
-}),
+    }),
 /* 301 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14227,7 +14227,7 @@
 
 
         /***/
-}),
+    }),
 /* 302 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14243,7 +14243,7 @@
 
 
         /***/
-}),
+    }),
 /* 303 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14278,7 +14278,7 @@
 
 
         /***/
-}),
+    }),
 /* 304 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14301,7 +14301,7 @@
 
 
         /***/
-}),
+    }),
 /* 305 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14329,7 +14329,7 @@
 
 
         /***/
-}),
+    }),
 /* 306 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14356,7 +14356,7 @@
 
 
         /***/
-}),
+    }),
 /* 307 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14383,7 +14383,7 @@
 
 
         /***/
-}),
+    }),
 /* 308 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14441,7 +14441,7 @@
 
 
         /***/
-}),
+    }),
 /* 309 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14463,7 +14463,7 @@
 
 
         /***/
-}),
+    }),
 /* 310 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14576,7 +14576,7 @@
 
 
         /***/
-}),
+    }),
 /* 311 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14627,7 +14627,7 @@
 
 
         /***/
-}),
+    }),
 /* 312 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14639,7 +14639,7 @@
 
 
         /***/
-}),
+    }),
 /* 313 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14649,7 +14649,7 @@
 
 
         /***/
-}),
+    }),
 /* 314 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14661,7 +14661,7 @@
 
 
         /***/
-}),
+    }),
 /* 315 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14673,7 +14673,7 @@
 
 
         /***/
-}),
+    }),
 /* 316 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14751,7 +14751,7 @@
 
 
         /***/
-}),
+    }),
 /* 317 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14764,7 +14764,7 @@
 
 
         /***/
-}),
+    }),
 /* 318 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14777,7 +14777,7 @@
 
 
         /***/
-}),
+    }),
 /* 319 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14793,7 +14793,7 @@
 
 
         /***/
-}),
+    }),
 /* 320 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14810,7 +14810,7 @@
 
 
         /***/
-}),
+    }),
 /* 321 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14848,7 +14848,7 @@
 
 
         /***/
-}),
+    }),
 /* 322 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14891,7 +14891,7 @@
 
 
         /***/
-}),
+    }),
 /* 323 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14901,7 +14901,7 @@
 
 
         /***/
-}),
+    }),
 /* 324 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -14918,7 +14918,7 @@
 
 
         /***/
-}),
+    }),
 /* 325 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15031,7 +15031,7 @@
 
 
         /***/
-}),
+    }),
 /* 326 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15061,7 +15061,7 @@
 
 
         /***/
-}),
+    }),
 /* 327 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15074,7 +15074,7 @@
 
 
         /***/
-}),
+    }),
 /* 328 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15099,7 +15099,7 @@
 
 
         /***/
-}),
+    }),
 /* 329 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15311,7 +15311,7 @@
 
 
         /***/
-}),
+    }),
 /* 330 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15717,7 +15717,7 @@
 
 
         /***/
-}),
+    }),
 /* 331 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15727,7 +15727,7 @@
 
 
         /***/
-}),
+    }),
 /* 332 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15747,7 +15747,7 @@
 
 
         /***/
-}),
+    }),
 /* 333 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15765,7 +15765,7 @@
 
 
         /***/
-}),
+    }),
 /* 334 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15857,7 +15857,7 @@
 
 
         /***/
-}),
+    }),
 /* 335 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15868,7 +15868,7 @@
 
 
         /***/
-}),
+    }),
 /* 336 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15878,7 +15878,7 @@
 
 
         /***/
-}),
+    }),
 /* 337 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15897,7 +15897,7 @@
 
 
         /***/
-}),
+    }),
 /* 338 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15912,7 +15912,7 @@
 
 
         /***/
-}),
+    }),
 /* 339 */
 /***/ (function (module, exports) {
 
@@ -15926,7 +15926,7 @@
 
 
         /***/
-}),
+    }),
 /* 340 */
 /***/ (function (module, exports) {
 
@@ -15934,7 +15934,7 @@
 
 
         /***/
-}),
+    }),
 /* 341 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15949,7 +15949,7 @@
 
 
         /***/
-}),
+    }),
 /* 342 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -15993,7 +15993,7 @@
 
 
         /***/
-}),
+    }),
 /* 343 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16013,7 +16013,7 @@
 
 
         /***/
-}),
+    }),
 /* 344 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16057,7 +16057,7 @@
 
 
         /***/
-}),
+    }),
 /* 345 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16069,7 +16069,7 @@
 
 
         /***/
-}),
+    }),
 /* 346 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16172,7 +16172,7 @@
 
 
         /***/
-}),
+    }),
 /* 347 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16181,7 +16181,7 @@
 
 
         /***/
-}),
+    }),
 /* 348 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16204,7 +16204,7 @@
 
 
         /***/
-}),
+    }),
 /* 349 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16226,7 +16226,7 @@
 
 
         /***/
-}),
+    }),
 /* 350 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16248,7 +16248,7 @@
 
 
         /***/
-}),
+    }),
 /* 351 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16270,7 +16270,7 @@
 
 
         /***/
-}),
+    }),
 /* 352 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16294,7 +16294,7 @@
 
 
         /***/
-}),
+    }),
 /* 353 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16337,7 +16337,7 @@
 
 
         /***/
-}),
+    }),
 /* 354 */
 /***/ (function (module, exports) {
 
@@ -16351,7 +16351,7 @@
 
 
         /***/
-}),
+    }),
 /* 355 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16387,7 +16387,7 @@
 
 
         /***/
-}),
+    }),
 /* 356 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16421,7 +16421,7 @@
 
 
         /***/
-}),
+    }),
 /* 357 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16450,7 +16450,7 @@
 
 
         /***/
-}),
+    }),
 /* 358 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16470,7 +16470,7 @@
 
 
         /***/
-}),
+    }),
 /* 359 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -16514,7 +16514,7 @@
 
 
         /***/
-}),
+    }),
 /* 360 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -32816,7 +32816,7 @@
         }));
 
         /***/
-}),
+    }),
 /* 361 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -32908,7 +32908,7 @@
         });
 
         /***/
-}),
+    }),
 /* 362 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33077,7 +33077,7 @@
         }
 
         /***/
-}),
+    }),
 /* 363 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33365,7 +33365,7 @@
         });
 
         /***/
-}),
+    }),
 /* 364 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33415,7 +33415,7 @@
         module.exports = api;
 
         /***/
-}),
+    }),
 /* 365 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33496,7 +33496,7 @@
         module.exports = api;
 
         /***/
-}),
+    }),
 /* 366 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33519,7 +33519,7 @@
         });
 
         /***/
-}),
+    }),
 /* 367 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33573,7 +33573,7 @@
         }
 
         /***/
-}),
+    }),
 /* 368 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33583,7 +33583,7 @@
 
 
         /***/
-}),
+    }),
 /* 369 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33593,7 +33593,7 @@
 
 
         /***/
-}),
+    }),
 /* 370 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33604,7 +33604,7 @@
 
 
         /***/
-}),
+    }),
 /* 371 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33617,7 +33617,7 @@
 
 
         /***/
-}),
+    }),
 /* 372 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33657,7 +33657,7 @@
 
 
         /***/
-}),
+    }),
 /* 373 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33676,7 +33676,7 @@
 
 
         /***/
-}),
+    }),
 /* 374 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33688,10 +33688,10 @@
 /* harmony default export */ __webpack_exports__["default"] = (freeGlobal);
 
             /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(60)))
+        }.call(this, __webpack_require__(60)))
 
         /***/
-}),
+    }),
 /* 375 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33747,7 +33747,7 @@
 
 
         /***/
-}),
+    }),
 /* 376 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33778,7 +33778,7 @@
 
 
         /***/
-}),
+    }),
 /* 377 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33794,7 +33794,7 @@
 
 
         /***/
-}),
+    }),
 /* 378 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33818,7 +33818,7 @@
 
 
         /***/
-}),
+    }),
 /* 379 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33856,7 +33856,7 @@
 
 
         /***/
-}),
+    }),
 /* 380 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33882,10 +33882,10 @@
 /* harmony default export */ __webpack_exports__["default"] = (result);
 
             /* WEBPACK VAR INJECTION */
-}.call(this, __webpack_require__(60), __webpack_require__(381)(module)))
+        }.call(this, __webpack_require__(60), __webpack_require__(381)(module)))
 
         /***/
-}),
+    }),
 /* 381 */
 /***/ (function (module, exports) {
 
@@ -33916,7 +33916,7 @@
 
 
         /***/
-}),
+    }),
 /* 382 */
 /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
@@ -33943,7 +33943,7 @@
 
 
         /***/
-}),
+    }),
 /* 383 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -33983,7 +33983,7 @@
         exports["default"] = _default;
 
         /***/
-}),
+    }),
 /* 384 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34019,7 +34019,7 @@
         exports.ixData = ixData;
 
         /***/
-}),
+    }),
 /* 385 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34135,7 +34135,7 @@
         exports.QuickEffectDirectionConsts = QuickEffectDirectionConsts;
 
         /***/
-}),
+    }),
 /* 386 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34165,7 +34165,7 @@
         exports.InteractionTypeConsts = InteractionTypeConsts;
 
         /***/
-}),
+    }),
 /* 387 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34200,7 +34200,7 @@
         exports.ReducedMotionTypes = ReducedMotionTypes;
 
         /***/
-}),
+    }),
 /* 388 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34253,7 +34253,7 @@
         exports.IX2_TEST_FRAME_RENDERED = IX2_TEST_FRAME_RENDERED;
 
         /***/
-}),
+    }),
 /* 389 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34376,7 +34376,7 @@
         exports.RENDER_PLUGIN = RENDER_PLUGIN;
 
         /***/
-}),
+    }),
 /* 390 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34438,7 +34438,7 @@
         exports.ixRequest = ixRequest;
 
         /***/
-}),
+    }),
 /* 391 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34581,7 +34581,7 @@
         exports.ixSession = ixSession;
 
         /***/
-}),
+    }),
 /* 392 */
 /***/ (function (module, exports) {
 
@@ -34598,7 +34598,7 @@
         module.exports = _arrayWithoutHoles;
 
         /***/
-}),
+    }),
 /* 393 */
 /***/ (function (module, exports) {
 
@@ -34609,7 +34609,7 @@
         module.exports = _iterableToArray;
 
         /***/
-}),
+    }),
 /* 394 */
 /***/ (function (module, exports) {
 
@@ -34620,7 +34620,7 @@
         module.exports = _nonIterableSpread;
 
         /***/
-}),
+    }),
 /* 395 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34742,7 +34742,7 @@
         }
 
         /***/
-}),
+    }),
 /* 396 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -34830,7 +34830,7 @@
         exports.clearPlugin = clearPlugin;
 
         /***/
-}),
+    }),
 /* 397 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36084,7 +36084,7 @@
         }
 
         /***/
-}),
+    }),
 /* 398 */
 /***/ (function (module, exports) {
 
@@ -36116,7 +36116,7 @@
 
 
         /***/
-}),
+    }),
 /* 399 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36174,7 +36174,7 @@
 
 
         /***/
-}),
+    }),
 /* 400 */
 /***/ (function (module, exports) {
 
@@ -36207,7 +36207,7 @@
 
 
         /***/
-}),
+    }),
 /* 401 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36230,7 +36230,7 @@
 
 
         /***/
-}),
+    }),
 /* 402 */
 /***/ (function (module, exports) {
 
@@ -36262,7 +36262,7 @@
 
 
         /***/
-}),
+    }),
 /* 403 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36301,7 +36301,7 @@
 
 
         /***/
-}),
+    }),
 /* 404 */
 /***/ (function (module, exports) {
 
@@ -36331,7 +36331,7 @@
 
 
         /***/
-}),
+    }),
 /* 405 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36363,7 +36363,7 @@
 
 
         /***/
-}),
+    }),
 /* 406 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36429,7 +36429,7 @@
 
 
         /***/
-}),
+    }),
 /* 407 */
 /***/ (function (module, exports) {
 
@@ -36442,7 +36442,7 @@
         module.exports = _interopRequireDefault;
 
         /***/
-}),
+    }),
 /* 408 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36514,7 +36514,7 @@
         module.exports = shallowEqual;
 
         /***/
-}),
+    }),
 /* 409 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36862,7 +36862,7 @@
         exports.ixInstances = ixInstances;
 
         /***/
-}),
+    }),
 /* 410 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36921,7 +36921,7 @@
         exports.ixParameters = ixParameters;
 
         /***/
-}),
+    }),
 /* 411 */
 /***/ (function (module, exports) {
 
@@ -36943,7 +36943,7 @@
         module.exports = _objectWithoutPropertiesLoose;
 
         /***/
-}),
+    }),
 /* 412 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -36996,7 +36996,7 @@
 
 
         /***/
-}),
+    }),
 /* 413 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37033,7 +37033,7 @@
 
 
         /***/
-}),
+    }),
 /* 414 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37058,7 +37058,7 @@
 
 
         /***/
-}),
+    }),
 /* 415 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37077,7 +37077,7 @@
 
 
         /***/
-}),
+    }),
 /* 416 */
 /***/ (function (module, exports) {
 
@@ -37110,7 +37110,7 @@
 
 
         /***/
-}),
+    }),
 /* 417 */
 /***/ (function (module, exports) {
 
@@ -37161,7 +37161,7 @@
 
 
         /***/
-}),
+    }),
 /* 418 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37197,7 +37197,7 @@
 
 
         /***/
-}),
+    }),
 /* 419 */
 /***/ (function (module, exports) {
 
@@ -37244,7 +37244,7 @@
 
 
         /***/
-}),
+    }),
 /* 420 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37288,7 +37288,7 @@
 
 
         /***/
-}),
+    }),
 /* 421 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37325,7 +37325,7 @@
 
 
         /***/
-}),
+    }),
 /* 422 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37383,7 +37383,7 @@
 
 
         /***/
-}),
+    }),
 /* 423 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37418,7 +37418,7 @@
 
 
         /***/
-}),
+    }),
 /* 424 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37442,7 +37442,7 @@
 
 
         /***/
-}),
+    }),
 /* 425 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37474,7 +37474,7 @@
 
 
         /***/
-}),
+    }),
 /* 426 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37487,7 +37487,7 @@
 
 
         /***/
-}),
+    }),
 /* 427 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37526,7 +37526,7 @@
 
 
         /***/
-}),
+    }),
 /* 428 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37566,7 +37566,7 @@
 
 
         /***/
-}),
+    }),
 /* 429 */
 /***/ (function (module, exports) {
 
@@ -37593,7 +37593,7 @@
 
 
         /***/
-}),
+    }),
 /* 430 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37677,7 +37677,7 @@
 
 
         /***/
-}),
+    }),
 /* 431 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37727,7 +37727,7 @@
 
 
         /***/
-}),
+    }),
 /* 432 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37775,7 +37775,7 @@
 
 
         /***/
-}),
+    }),
 /* 433 */
 /***/ (function (module, exports) {
 
@@ -37804,7 +37804,7 @@
 
 
         /***/
-}),
+    }),
 /* 434 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37825,7 +37825,7 @@
 
 
         /***/
-}),
+    }),
 /* 435 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -37901,7 +37901,7 @@
 
 
         /***/
-}),
+    }),
 /* 436 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -38099,7 +38099,7 @@
 
 
         /***/
-}),
+    }),
 /* 437 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -38129,7 +38129,7 @@
 
 
         /***/
-}),
+    }),
 /* 438 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -38325,7 +38325,7 @@
         }
 
         /***/
-}),
+    }),
 /* 439 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39037,7 +39037,7 @@
         exports["default"] = _default;
 
         /***/
-}),
+    }),
 /* 440 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39071,7 +39071,7 @@
 
 
         /***/
-}),
+    }),
 /* 441 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39156,7 +39156,7 @@
 
 
         /***/
-}),
+    }),
 /* 442 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39179,7 +39179,7 @@
 
 
         /***/
-}),
+    }),
 /* 443 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39208,7 +39208,7 @@
 
 
         /***/
-}),
+    }),
 /* 444 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39253,7 +39253,7 @@
 
 
         /***/
-}),
+    }),
 /* 445 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39280,7 +39280,7 @@
 
 
         /***/
-}),
+    }),
 /* 446 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39323,7 +39323,7 @@
 
 
         /***/
-}),
+    }),
 /* 447 */
 /***/ (function (module, exports) {
 
@@ -39351,7 +39351,7 @@
 
 
         /***/
-}),
+    }),
 /* 448 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39372,7 +39372,7 @@
 
 
         /***/
-}),
+    }),
 /* 449 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39401,7 +39401,7 @@
 
 
         /***/
-}),
+    }),
 /* 450 */
 /***/ (function (module, exports) {
 
@@ -39434,7 +39434,7 @@
 
 
         /***/
-}),
+    }),
 /* 451 */
 /***/ (function (module, exports) {
 
@@ -39478,7 +39478,7 @@
 
 
         /***/
-}),
+    }),
 /* 452 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39491,7 +39491,7 @@
 
 
         /***/
-}),
+    }),
 /* 453 */
 /***/ (function (module, exports) {
 
@@ -39515,7 +39515,7 @@
 
 
         /***/
-}),
+    }),
 /* 454 */
 /***/ (function (module, exports) {
 
@@ -39526,7 +39526,7 @@
 
 
         /***/
-}),
+    }),
 /* 455 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39561,7 +39561,7 @@
 
 
         /***/
-}),
+    }),
 /* 456 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39715,7 +39715,7 @@
 
 
         /***/
-}),
+    }),
 /* 457 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39745,7 +39745,7 @@
 
 
         /***/
-}),
+    }),
 /* 458 */
 /***/ (function (module, exports) {
 
@@ -39772,7 +39772,7 @@
 
 
         /***/
-}),
+    }),
 /* 459 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39818,7 +39818,7 @@
 
 
         /***/
-}),
+    }),
 /* 460 */
 /***/ (function (module, exports) {
 
@@ -39847,7 +39847,7 @@
 
 
         /***/
-}),
+    }),
 /* 461 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -39978,7 +39978,7 @@
         });
 
         /***/
-}),
+    }),
 /* 462 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -40234,7 +40234,7 @@
         });
 
         /***/
-}),
+    }),
 /* 463 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -40376,11 +40376,88 @@
         });
 
         /***/
-})
+    })
 /******/]);/**
  * ----------------------------------------------------------------------
  * Webflow: Interactions 2.0: Init
  */
 Webflow.require('ix2').init(
-    { "events": { "e": { "id": "e", "animationType": "custom", "eventTypeId": "SCROLLING_IN_VIEW", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61cded37d2268bea7f6baf67|4cb8a03c-9a14-1422-33d4-e08784360c13", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "61cded37d2268bea7f6baf67|4cb8a03c-9a14-1422-33d4-e08784360c13", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-p", "smoothing": 70, "startsEntering": false, "addStartOffset": true, "addOffsetValue": 10, "startsExiting": false, "addEndOffset": true, "endOffsetValue": 17 }], "createdOn": 1572716924813 }, "e-2": { "id": "e-2", "animationType": "custom", "eventTypeId": "SCROLLING_IN_VIEW", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-2", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61cded37d2268bea7f6baf67|10db16a7-573e-0886-7812-1ac7e7aa9417", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "61cded37d2268bea7f6baf67|10db16a7-573e-0886-7812-1ac7e7aa9417", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-2-p", "smoothing": 70, "startsEntering": true, "addStartOffset": false, "addOffsetValue": 90, "startsExiting": false, "addEndOffset": true, "endOffsetValue": 15 }], "createdOn": 1572722492546 }, "e-3": { "id": "e-3", "animationType": "custom", "eventTypeId": "SCROLLING_IN_VIEW", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-3", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61cded37d2268bea7f6baf67|22d9d7e9-8717-3686-cfc8-7760d17343cb", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "61cded37d2268bea7f6baf67|22d9d7e9-8717-3686-cfc8-7760d17343cb", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-3-p", "smoothing": 70, "startsEntering": false, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": true, "endOffsetValue": 10 }], "createdOn": 1572728732111 } }, "actionLists": { "a": { "id": "a", "title": "hero animation", "continuousParameterGroups": [{ "id": "a-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 0, "actionItems": [{ "id": "a-n", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "value": 0 } }] }, { "keyframe": 17, "actionItems": [{ "id": "a-n-2", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "value": 93 } }] }, { "keyframe": 20, "actionItems": [{ "id": "a-n-3", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "value": 0, "unit": "" } }, { "id": "a-n-27", "actionTypeId": "TRANSFORM_SCALE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "xValue": 1, "yValue": 1, "locked": true } }] }, { "keyframe": 25, "actionItems": [{ "id": "a-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "value": 1, "unit": "" } }] }, { "keyframe": 35, "actionItems": [{ "id": "a-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "value": 1, "unit": "" } }] }, { "keyframe": 40, "actionItems": [{ "id": "a-n-5", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-7", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "value": 0, "unit": "" } }, { "id": "a-n-9", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-10", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "value": 0, "unit": "" } }] }, { "keyframe": 45, "actionItems": [{ "id": "a-n-11", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "value": 1, "unit": "" } }] }, { "keyframe": 55, "actionItems": [{ "id": "a-n-12", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "value": 1, "unit": "" } }] }, { "keyframe": 60, "actionItems": [{ "id": "a-n-13", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-14", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "value": 0, "unit": "" } }, { "id": "a-n-15", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-16", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "value": 0, "unit": "" } }] }, { "keyframe": 65, "actionItems": [{ "id": "a-n-17", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "value": 1, "unit": "" } }] }, { "keyframe": 75, "actionItems": [{ "id": "a-n-18", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "value": 1, "unit": "" } }] }, { "keyframe": 80, "actionItems": [{ "id": "a-n-20", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "value": 0, "unit": "" } }, { "id": "a-n-19", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-21", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-22", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "value": 0, "unit": "" } }] }, { "keyframe": 85, "actionItems": [{ "id": "a-n-23", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "value": 1, "unit": "" } }] }, { "keyframe": 95, "actionItems": [{ "id": "a-n-24", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "value": 1, "unit": "" } }] }, { "keyframe": 97, "actionItems": [{ "id": "a-n-29", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "value": 1, "unit": "" } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-n-26", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-25", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "value": 0, "unit": "" } }, { "id": "a-n-28", "actionTypeId": "TRANSFORM_SCALE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "xValue": 0.85, "yValue": 0.85, "locked": true } }, { "id": "a-n-30", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "value": 0, "unit": "" } }] }] }], "createdOn": 1572716927592 }, "a-2": { "id": "a-2", "title": "comfort animation", "continuousParameterGroups": [{ "id": "a-2-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 0, "actionItems": [{ "id": "a-2-n", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-2", "selectorGuids": ["9387dadb-416f-cd0b-f2a2-b8572019ef0c"] }, "value": 0 } }, { "id": "a-2-n-3", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-2", "selectorGuids": ["9387dadb-416f-cd0b-f2a2-b8572019ef0c"] }, "value": 0, "unit": "" } }] }, { "keyframe": 1, "actionItems": [{ "id": "a-2-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-2", "selectorGuids": ["9387dadb-416f-cd0b-f2a2-b8572019ef0c"] }, "value": 1, "unit": "" } }] }, { "keyframe": 30, "actionItems": [{ "id": "a-2-n-5", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "value": 0, "unit": "" } }, { "id": "a-2-n-7", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 33, "actionItems": [{ "id": "a-2-n-9", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "value": 1, "unit": "" } }] }, { "keyframe": 37, "actionItems": [{ "id": "a-2-n-10", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "value": 1, "unit": "" } }] }, { "keyframe": 39, "actionItems": [{ "id": "a-2-n-11", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 0, "unit": "" } }] }, { "keyframe": 40, "actionItems": [{ "id": "a-2-n-2", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-2", "selectorGuids": ["9387dadb-416f-cd0b-f2a2-b8572019ef0c"] }, "value": 100 } }, { "id": "a-2-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "value": 0, "unit": "" } }, { "id": "a-2-n-8", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-2-n-13", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 0 } }, { "id": "a-2-n-12", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 1, "unit": "" } }] }, { "keyframe": 55, "actionItems": [{ "id": "a-2-n-17", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-2-n-15", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "value": 0, "unit": "" } }] }, { "keyframe": 56, "actionItems": [{ "id": "a-2-n-19", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "value": 1, "unit": "" } }] }, { "keyframe": 59, "actionItems": [{ "id": "a-2-n-21", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-4", "selectorGuids": ["80b1d15b-b734-c3b1-de2c-a46c3cae6616"] }, "value": 0, "unit": "" } }] }, { "keyframe": 60, "actionItems": [{ "id": "a-2-n-14", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 99 } }, { "id": "a-2-n-22", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-4", "selectorGuids": ["80b1d15b-b734-c3b1-de2c-a46c3cae6616"] }, "value": 1, "unit": "" } }, { "id": "a-2-n-23", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-4", "selectorGuids": ["80b1d15b-b734-c3b1-de2c-a46c3cae6616"] }, "value": 0 } }, { "id": "a-2-n-36", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 1, "unit": "" } }, { "id": "a-2-n-16", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "value": 1, "unit": "" } }] }, { "keyframe": 61, "actionItems": [{ "id": "a-2-n-35", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 0, "unit": "" } }] }, { "keyframe": 65, "actionItems": [{ "id": "a-2-n-25", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "value": 0, "unit": "" } }, { "id": "a-2-n-27", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-2-n-20", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "value": 0, "unit": "" } }, { "id": "a-2-n-18", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 75, "actionItems": [{ "id": "a-2-n-29", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "value": 1, "unit": "" } }, { "id": "a-2-n-31", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-tips", "selectorGuids": ["13e6b735-c430-6c24-4932-1bed88124f8c"] }, "value": 0, "unit": "" } }] }, { "keyframe": 79, "actionItems": [{ "id": "a-2-n-32", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-tips", "selectorGuids": ["13e6b735-c430-6c24-4932-1bed88124f8c"] }, "value": 1, "unit": "" } }] }, { "keyframe": 80, "actionItems": [{ "id": "a-2-n-30", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "value": 1, "unit": "" } }] }, { "keyframe": 85, "actionItems": [{ "id": "a-2-n-28", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-2-n-26", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "value": 0, "unit": "" } }] }, { "keyframe": 87, "actionItems": [{ "id": "a-2-n-33", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-tips", "selectorGuids": ["13e6b735-c430-6c24-4932-1bed88124f8c"] }, "value": 1, "unit": "" } }] }, { "keyframe": 90, "actionItems": [{ "id": "a-2-n-34", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-tips", "selectorGuids": ["13e6b735-c430-6c24-4932-1bed88124f8c"] }, "value": 0, "unit": "" } }] }, { "keyframe": 99, "actionItems": [{ "id": "a-2-n-37", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 0, "unit": "" } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-2-n-24", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-4", "selectorGuids": ["80b1d15b-b734-c3b1-de2c-a46c3cae6616"] }, "value": 100 } }, { "id": "a-2-n-38", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 1, "unit": "" } }] }] }], "createdOn": 1572722497448 }, "a-3": { "id": "a-3", "title": "anc animation", "continuousParameterGroups": [{ "id": "a-3-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 0, "actionItems": [{ "id": "a-3-n-3", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-5", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 1, "actionItems": [{ "id": "a-3-n", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 0 } }] }, { "keyframe": 5, "actionItems": [{ "id": "a-3-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "value": 1, "unit": "" } }] }, { "keyframe": 10, "actionItems": [{ "id": "a-3-n-7", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "value": 1, "unit": "" } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-3-n-6", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-11", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-13", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 17, "actionItems": [{ "id": "a-3-n-12", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "value": 1, "unit": "" } }] }, { "keyframe": 20, "actionItems": [{ "id": "a-3-n-2", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 45 } }, { "id": "a-3-n-15", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "value": 1, "unit": "" } }] }, { "keyframe": 25, "actionItems": [{ "id": "a-3-n-14", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-16", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-17", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-19", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-23", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-24", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 27, "actionItems": [{ "id": "a-3-n-21", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-25", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "value": 1, "unit": "" } }] }, { "keyframe": 32, "actionItems": [{ "id": "a-3-n-22", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-26", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "value": 1, "unit": "" } }] }, { "keyframe": 35, "actionItems": [{ "id": "a-3-n-18", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-20", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-27", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-28", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-29", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-31", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-35", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-36", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 37, "actionItems": [{ "id": "a-3-n-33", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-37", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "value": 1, "unit": "" } }] }, { "keyframe": 42, "actionItems": [{ "id": "a-3-n-34", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-38", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "value": 1, "unit": "" } }] }, { "keyframe": 45, "actionItems": [{ "id": "a-3-n-9", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 45 } }, { "id": "a-3-n-30", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-32", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-39", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-40", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 50, "actionItems": [{ "id": "a-3-n-10", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 100 } }, { "id": "a-3-n-41", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-6", "selectorGuids": ["f9bebc80-699c-970d-b54c-1a7d8af9ce31"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-43", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-6", "selectorGuids": ["f9bebc80-699c-970d-b54c-1a7d8af9ce31"] }, "value": 0 } }] }, { "keyframe": 51, "actionItems": [{ "id": "a-3-n-42", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-6", "selectorGuids": ["f9bebc80-699c-970d-b54c-1a7d8af9ce31"] }, "value": 1, "unit": "" } }] }, { "keyframe": 65, "actionItems": [{ "id": "a-3-n-51", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-53", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 70, "actionItems": [{ "id": "a-3-n-55", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-56", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "value": 0.75, "unit": "" } }] }, { "keyframe": 79, "actionItems": [{ "id": "a-3-n-47", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "PARENT", "selector": ".body", "selectorGuids": ["14d288de-909f-1ee7-0e89-34fb95a178a0"] }, "globalSwatchId": "52353949", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 1 } }, { "id": "a-3-n-49", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".airpods-nav", "selectorGuids": ["28873399-ae87-de0d-5e04-b168270c36c8"] }, "value": 1, "unit": "" } }] }, { "keyframe": 80, "actionItems": [{ "id": "a-3-n-48", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "PARENT", "selector": ".body", "selectorGuids": ["14d288de-909f-1ee7-0e89-34fb95a178a0"] }, "globalSwatchId": "cb3e4782", "rValue": 255, "bValue": 255, "gValue": 255, "aValue": 1 } }, { "id": "a-3-n-50", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".airpods-nav", "selectorGuids": ["28873399-ae87-de0d-5e04-b168270c36c8"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-52", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-54", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 90, "actionItems": [{ "id": "a-3-n-45", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".white-overlay", "selectorGuids": ["502d2333-f031-e0ac-4626-80573afd71dd"] }, "value": 0, "unit": "" } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-3-n-44", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-6", "selectorGuids": ["f9bebc80-699c-970d-b54c-1a7d8af9ce31"] }, "value": 99 } }, { "id": "a-3-n-46", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".white-overlay", "selectorGuids": ["502d2333-f031-e0ac-4626-80573afd71dd"] }, "value": 1, "unit": "" } }] }] }], "createdOn": 1572728734837 } }, "site": { "mediaQueries": [{ "key": "main", "min": 992, "max": 10000 }, { "key": "medium", "min": 768, "max": 991 }, { "key": "small", "min": 480, "max": 767 }, { "key": "tiny", "min": 0, "max": 479 }] } }
+    {
+        "events": {
+            "e": {
+                "id": "e",
+                "animationType": "custom",
+                "eventTypeId": "SCROLLING_IN_VIEW",
+                "action": {
+                    "id": "",
+                    "actionTypeId": "GENERAL_CONTINUOUS_ACTION",
+                    "config": {
+                        "actionListId": "a",
+                        "affectedElements": {},
+                        "duration": 0
+                    }
+                },
+                "mediaQueries": ["main", "medium", "small", "tiny"],
+                "target": {
+                    "id": "61cded37d2268bea7f6baf67|4cb8a03c-9a14-1422-33d4-e08784360c13",
+                    "appliesTo": "ELEMENT",
+                    "styleBlockIds": []
+                },
+                "targets": [{
+                    "id": "61cded37d2268bea7f6baf67|4cb8a03c-9a14-1422-33d4-e08784360c13",
+                    "appliesTo": "ELEMENT",
+                    "styleBlockIds": []
+                }],
+                "config": [{
+                    "continuousParameterGroupId": "a-p",
+                    "smoothing": 70,
+                    "startsEntering": false,
+                    "addStartOffset": true,
+                    "addOffsetValue": 10,
+                    "startsExiting": false,
+                    "addEndOffset": true,
+                    "endOffsetValue": 17
+                }],
+                "createdOn": 1572716924813
+            },
+            "e-2": {
+                "id": "e-2",
+                "animationType": "custom",
+                "eventTypeId": "SCROLLING_IN_VIEW",
+                "action": {
+                    "id": "",
+                    "actionTypeId": "GENERAL_CONTINUOUS_ACTION",
+                    "config": {
+                        "actionListId": "a-2",
+                        "affectedElements": {},
+                        "duration": 0
+                    }
+                },
+                "mediaQueries": ["main", "medium", "small", "tiny"],
+                "target": {
+                    "id": "61cded37d2268bea7f6baf67|10db16a7-573e-0886-7812-1ac7e7aa9417",
+                    "appliesTo": "ELEMENT",
+                    "styleBlockIds": []
+                },
+                "targets": [{
+                    "id": "61cded37d2268bea7f6baf67|10db16a7-573e-0886-7812-1ac7e7aa9417",
+                    "appliesTo": "ELEMENT",
+                    "styleBlockIds": []
+                }],
+                "config": [{
+                    "continuousParameterGroupId": "a-2-p",
+                    "smoothing": 70,
+                    "startsEntering": true,
+                    "addStartOffset": false,
+                    "addOffsetValue": 90,
+                    "startsExiting": false,
+                    "addEndOffset": true,
+                    "endOffsetValue": 15
+                }],
+                "createdOn": 1572722492546
+            }, 
+            "e-3": {
+                 "id": "e-3", "animationType": "custom", "eventTypeId": "SCROLLING_IN_VIEW", "action": { "id": "", "actionTypeId": "GENERAL_CONTINUOUS_ACTION", "config": { "actionListId": "a-3", "affectedElements": {}, "duration": 0 } }, "mediaQueries": ["main", "medium", "small", "tiny"], "target": { "id": "61cded37d2268bea7f6baf67|22d9d7e9-8717-3686-cfc8-7760d17343cb", "appliesTo": "ELEMENT", "styleBlockIds": [] }, "targets": [{ "id": "61cded37d2268bea7f6baf67|22d9d7e9-8717-3686-cfc8-7760d17343cb", "appliesTo": "ELEMENT", "styleBlockIds": [] }], "config": [{ "continuousParameterGroupId": "a-3-p", "smoothing": 70, "startsEntering": false, "addStartOffset": false, "addOffsetValue": 50, "startsExiting": false, "addEndOffset": true, "endOffsetValue": 10 }], "createdOn": 1572728732111 }
+        }, "actionLists": { "a": { "id": "a", "title": "hero animation", "continuousParameterGroups": [{ "id": "a-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 0, "actionItems": [{ "id": "a-n", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "value": 0 } }] }, { "keyframe": 17, "actionItems": [{ "id": "a-n-2", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "value": 93 } }] }, { "keyframe": 20, "actionItems": [{ "id": "a-n-3", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "value": 0, "unit": "" } }, { "id": "a-n-27", "actionTypeId": "TRANSFORM_SCALE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "xValue": 1, "yValue": 1, "locked": true } }] }, { "keyframe": 25, "actionItems": [{ "id": "a-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "value": 1, "unit": "" } }] }, { "keyframe": 35, "actionItems": [{ "id": "a-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "value": 1, "unit": "" } }] }, { "keyframe": 40, "actionItems": [{ "id": "a-n-5", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-7", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|f945f614-f70e-f381-6143-2911593c4e30" }, "value": 0, "unit": "" } }, { "id": "a-n-9", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-10", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "value": 0, "unit": "" } }] }, { "keyframe": 45, "actionItems": [{ "id": "a-n-11", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "value": 1, "unit": "" } }] }, { "keyframe": 55, "actionItems": [{ "id": "a-n-12", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "value": 1, "unit": "" } }] }, { "keyframe": 60, "actionItems": [{ "id": "a-n-13", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-14", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|9c0bd5bd-a10a-9f5e-db6f-dff7ddc4e044" }, "value": 0, "unit": "" } }, { "id": "a-n-15", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-16", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "value": 0, "unit": "" } }] }, { "keyframe": 65, "actionItems": [{ "id": "a-n-17", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "value": 1, "unit": "" } }] }, { "keyframe": 75, "actionItems": [{ "id": "a-n-18", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "value": 1, "unit": "" } }] }, { "keyframe": 80, "actionItems": [{ "id": "a-n-20", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "value": 0, "unit": "" } }, { "id": "a-n-19", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|072da752-fbec-411f-dcd4-13210000d635" }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-21", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-22", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "value": 0, "unit": "" } }] }, { "keyframe": 85, "actionItems": [{ "id": "a-n-23", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "value": 1, "unit": "" } }] }, { "keyframe": 95, "actionItems": [{ "id": "a-n-24", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "value": 1, "unit": "" } }] }, { "keyframe": 97, "actionItems": [{ "id": "a-n-29", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "value": 1, "unit": "" } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-n-26", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-n-25", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "id": "61cded37d2268bea7f6baf67|a4572ce5-666e-fb12-8f70-87501c2b78ee" }, "value": 0, "unit": "" } }, { "id": "a-n-28", "actionTypeId": "TRANSFORM_SCALE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "xValue": 0.85, "yValue": 0.85, "locked": true } }, { "id": "a-n-30", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-1", "selectorGuids": ["592f3af2-9467-ff0e-e6fb-6f625e1fc508"] }, "value": 0, "unit": "" } }] }] }], "createdOn": 1572716927592 }, "a-2": { "id": "a-2", "title": "comfort animation", "continuousParameterGroups": [{ "id": "a-2-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 0, "actionItems": [{ "id": "a-2-n", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-2", "selectorGuids": ["9387dadb-416f-cd0b-f2a2-b8572019ef0c"] }, "value": 0 } }, { "id": "a-2-n-3", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-2", "selectorGuids": ["9387dadb-416f-cd0b-f2a2-b8572019ef0c"] }, "value": 0, "unit": "" } }] }, { "keyframe": 1, "actionItems": [{ "id": "a-2-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-2", "selectorGuids": ["9387dadb-416f-cd0b-f2a2-b8572019ef0c"] }, "value": 1, "unit": "" } }] }, { "keyframe": 30, "actionItems": [{ "id": "a-2-n-5", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "value": 0, "unit": "" } }, { "id": "a-2-n-7", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 33, "actionItems": [{ "id": "a-2-n-9", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "value": 1, "unit": "" } }] }, { "keyframe": 37, "actionItems": [{ "id": "a-2-n-10", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "value": 1, "unit": "" } }] }, { "keyframe": 39, "actionItems": [{ "id": "a-2-n-11", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 0, "unit": "" } }] }, { "keyframe": 40, "actionItems": [{ "id": "a-2-n-2", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-2", "selectorGuids": ["9387dadb-416f-cd0b-f2a2-b8572019ef0c"] }, "value": 100 } }, { "id": "a-2-n-6", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "value": 0, "unit": "" } }, { "id": "a-2-n-8", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-heading-wrapper", "selectorGuids": ["ec8c7c3f-1a2e-f417-13e3-eb09af1f3219"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-2-n-13", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 0 } }, { "id": "a-2-n-12", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 1, "unit": "" } }] }, { "keyframe": 55, "actionItems": [{ "id": "a-2-n-17", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-2-n-15", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "value": 0, "unit": "" } }] }, { "keyframe": 56, "actionItems": [{ "id": "a-2-n-19", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "value": 1, "unit": "" } }] }, { "keyframe": 59, "actionItems": [{ "id": "a-2-n-21", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-4", "selectorGuids": ["80b1d15b-b734-c3b1-de2c-a46c3cae6616"] }, "value": 0, "unit": "" } }] }, { "keyframe": 60, "actionItems": [{ "id": "a-2-n-14", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 99 } }, { "id": "a-2-n-22", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-4", "selectorGuids": ["80b1d15b-b734-c3b1-de2c-a46c3cae6616"] }, "value": 1, "unit": "" } }, { "id": "a-2-n-23", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-4", "selectorGuids": ["80b1d15b-b734-c3b1-de2c-a46c3cae6616"] }, "value": 0 } }, { "id": "a-2-n-36", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 1, "unit": "" } }, { "id": "a-2-n-16", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "value": 1, "unit": "" } }] }, { "keyframe": 61, "actionItems": [{ "id": "a-2-n-35", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-3", "selectorGuids": ["ed4da822-1c29-4ba9-2eaf-e15244e1fe41"] }, "value": 0, "unit": "" } }] }, { "keyframe": 65, "actionItems": [{ "id": "a-2-n-25", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "value": 0, "unit": "" } }, { "id": "a-2-n-27", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-2-n-20", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "value": 0, "unit": "" } }, { "id": "a-2-n-18", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-intro-text-wrapper", "selectorGuids": ["001da32d-465d-3d51-7c92-dd6bc4e21568"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 75, "actionItems": [{ "id": "a-2-n-29", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "value": 1, "unit": "" } }, { "id": "a-2-n-31", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-tips", "selectorGuids": ["13e6b735-c430-6c24-4932-1bed88124f8c"] }, "value": 0, "unit": "" } }] }, { "keyframe": 79, "actionItems": [{ "id": "a-2-n-32", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-tips", "selectorGuids": ["13e6b735-c430-6c24-4932-1bed88124f8c"] }, "value": 1, "unit": "" } }] }, { "keyframe": 80, "actionItems": [{ "id": "a-2-n-30", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "value": 1, "unit": "" } }] }, { "keyframe": 85, "actionItems": [{ "id": "a-2-n-28", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-2-n-26", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".choose-size", "selectorGuids": ["00fc877f-f2c5-7ee0-aa83-05aab2464ee2"] }, "value": 0, "unit": "" } }] }, { "keyframe": 87, "actionItems": [{ "id": "a-2-n-33", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-tips", "selectorGuids": ["13e6b735-c430-6c24-4932-1bed88124f8c"] }, "value": 1, "unit": "" } }] }, { "keyframe": 90, "actionItems": [{ "id": "a-2-n-34", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".comfort-tips", "selectorGuids": ["13e6b735-c430-6c24-4932-1bed88124f8c"] }, "value": 0, "unit": "" } }] }, { "keyframe": 99, "actionItems": [{ "id": "a-2-n-37", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 0, "unit": "" } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-2-n-24", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-4", "selectorGuids": ["80b1d15b-b734-c3b1-de2c-a46c3cae6616"] }, "value": 100 } }, { "id": "a-2-n-38", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 1, "unit": "" } }] }] }], "createdOn": 1572722497448 }, "a-3": { "id": "a-3", "title": "anc animation", "continuousParameterGroups": [{ "id": "a-3-p", "type": "SCROLL_PROGRESS", "parameterLabel": "Scroll", "continuousActionGroups": [{ "keyframe": 0, "actionItems": [{ "id": "a-3-n-3", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-5", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 1, "actionItems": [{ "id": "a-3-n", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 0 } }] }, { "keyframe": 5, "actionItems": [{ "id": "a-3-n-4", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "value": 1, "unit": "" } }] }, { "keyframe": 10, "actionItems": [{ "id": "a-3-n-7", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "value": 1, "unit": "" } }] }, { "keyframe": 15, "actionItems": [{ "id": "a-3-n-6", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-8", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro", "selectorGuids": ["7022f4d1-0093-ddbc-ff24-413266d7eacc"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-11", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-13", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 17, "actionItems": [{ "id": "a-3-n-12", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "value": 1, "unit": "" } }] }, { "keyframe": 20, "actionItems": [{ "id": "a-3-n-2", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 45 } }, { "id": "a-3-n-15", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "value": 1, "unit": "" } }] }, { "keyframe": 25, "actionItems": [{ "id": "a-3-n-14", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-16", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-intro-paragraph", "selectorGuids": ["0c34ae46-fb7d-4336-290a-e84e263b59ea"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-17", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-19", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-23", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-24", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 27, "actionItems": [{ "id": "a-3-n-21", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-25", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "value": 1, "unit": "" } }] }, { "keyframe": 32, "actionItems": [{ "id": "a-3-n-22", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-26", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "value": 1, "unit": "" } }] }, { "keyframe": 35, "actionItems": [{ "id": "a-3-n-18", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-20", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-mic", "selectorGuids": ["3fcdb092-f976-a1a0-ee10-1ac1266c39c2"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-27", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-28", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-external-sound", "selectorGuids": ["904b7321-ad92-c47e-8417-cb18a79e4b12"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-29", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-31", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-35", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-36", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 37, "actionItems": [{ "id": "a-3-n-33", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-37", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "value": 1, "unit": "" } }] }, { "keyframe": 42, "actionItems": [{ "id": "a-3-n-34", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-38", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "value": 1, "unit": "" } }] }, { "keyframe": 45, "actionItems": [{ "id": "a-3-n-9", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 45 } }, { "id": "a-3-n-30", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-32", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-continousley", "selectorGuids": ["ba194d9d-a8d8-ad34-95a6-c4a83a27cd76"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }, { "id": "a-3-n-39", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-40", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-internal-mic", "selectorGuids": ["c17461c7-047c-db77-cfc3-84d2290d0ffd"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 50, "actionItems": [{ "id": "a-3-n-10", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-5", "selectorGuids": ["12490f64-1aed-bf55-14b9-9f46e6105e15"] }, "value": 100 } }, { "id": "a-3-n-41", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-6", "selectorGuids": ["f9bebc80-699c-970d-b54c-1a7d8af9ce31"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-43", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-6", "selectorGuids": ["f9bebc80-699c-970d-b54c-1a7d8af9ce31"] }, "value": 0 } }] }, { "keyframe": 51, "actionItems": [{ "id": "a-3-n-42", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-6", "selectorGuids": ["f9bebc80-699c-970d-b54c-1a7d8af9ce31"] }, "value": 1, "unit": "" } }] }, { "keyframe": 65, "actionItems": [{ "id": "a-3-n-51", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-53", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "yValue": 40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 70, "actionItems": [{ "id": "a-3-n-55", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "value": 1, "unit": "" } }, { "id": "a-3-n-56", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "value": 0.75, "unit": "" } }] }, { "keyframe": 79, "actionItems": [{ "id": "a-3-n-47", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "PARENT", "selector": ".body", "selectorGuids": ["14d288de-909f-1ee7-0e89-34fb95a178a0"] }, "globalSwatchId": "52353949", "rValue": 0, "bValue": 0, "gValue": 0, "aValue": 1 } }, { "id": "a-3-n-49", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".airpods-nav", "selectorGuids": ["28873399-ae87-de0d-5e04-b168270c36c8"] }, "value": 1, "unit": "" } }] }, { "keyframe": 80, "actionItems": [{ "id": "a-3-n-48", "actionTypeId": "STYLE_BACKGROUND_COLOR", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "PARENT", "selector": ".body", "selectorGuids": ["14d288de-909f-1ee7-0e89-34fb95a178a0"] }, "globalSwatchId": "cb3e4782", "rValue": 255, "bValue": 255, "gValue": 255, "aValue": 1 } }, { "id": "a-3-n-50", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "SIBLINGS", "selector": ".airpods-nav", "selectorGuids": ["28873399-ae87-de0d-5e04-b168270c36c8"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-52", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "value": 0, "unit": "" } }, { "id": "a-3-n-54", "actionTypeId": "TRANSFORM_MOVE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".anc-transparency", "selectorGuids": ["172de60f-94f4-c884-a6d1-eea1a70b7a69"] }, "yValue": -40, "xUnit": "PX", "yUnit": "PX", "zUnit": "PX" } }] }, { "keyframe": 90, "actionItems": [{ "id": "a-3-n-45", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".white-overlay", "selectorGuids": ["502d2333-f031-e0ac-4626-80573afd71dd"] }, "value": 0, "unit": "" } }] }, { "keyframe": 100, "actionItems": [{ "id": "a-3-n-44", "actionTypeId": "PLUGIN_LOTTIE", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "selector": ".lottie-animation-6", "selectorGuids": ["f9bebc80-699c-970d-b54c-1a7d8af9ce31"] }, "value": 99 } }, { "id": "a-3-n-46", "actionTypeId": "STYLE_OPACITY", "config": { "delay": 0, "easing": "", "duration": 500, "target": { "useEventTarget": "CHILDREN", "selector": ".white-overlay", "selectorGuids": ["502d2333-f031-e0ac-4626-80573afd71dd"] }, "value": 1, "unit": "" } }] }] }], "createdOn": 1572728734837 } }, "site": { "mediaQueries": [{ "key": "main", "min": 992, "max": 10000 }, { "key": "medium", "min": 768, "max": 991 }, { "key": "small", "min": 480, "max": 767 }, { "key": "tiny", "min": 0, "max": 479 }] }
+    }
 );
